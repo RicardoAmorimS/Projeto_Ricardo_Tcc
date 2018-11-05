@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="aluguelImoveis">
+
+  <head>
+
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aluguel Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+
+    <script src="lib/angular/angular.js"></script> 
+
+    <script src="js/controllers/aluguelImoveisCtrl.js"></script>
+
+    <script type="text/javascript" src="lib/angular/angular-ui-router.js"></script> 
+
+    <script type="text/javascript" src="lib/angular/angular-animate.js"></script>
+
+    <meta name="viewport" content="initial-scale=1">
+
+
+  </head>
+
+  <body >
+    <!--CABEÇALHO-->
+    <div ng-include="'view/cabecalho.html'"></div>
+
+    <div ui-view></div>
+
+    <!--RODAPÉ-->
+    <div ng-include="'view/rodape.html'"></div>
+    
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

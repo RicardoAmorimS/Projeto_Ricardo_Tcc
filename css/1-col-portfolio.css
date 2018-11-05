@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.pagination {
+  margin-bottom: 15px;
+}
+
+.navbar {
+	margin-top: -56px;
+	background-color: #9370DB;
+}
+
+#campo-busca{
+	padding-top: 25px;
+	background-color: white;
+	box-shadow: 0px 0px 5px rgba(22, 19, 23, 0.2);
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.container-fluid{
+	background-color: white;
+}
+
+#titulo-anuncio{
+	margin-left: -20px;
+	color: #9B30FF;
+	border: thin  solid #9B30FF;
+	text-align: center;
+	background-color: white;
+	padding: 10px;
+}
+
+#item {
+	background-color: white;
+	box-shadow: 0px 0px 10px #8B8682;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#campo-preco{
+	color: #EE7621;
+}
+
+#campo-tipo{
+	color: #828282; 
+}
+
+#campo-descricao {
+	padding: 5px;
+	border: 1px solid #D3D3D3;
+    border-radius: 3px;
+}
+
+
+/* PAGINA DE DETALHES */
+#detalhe-slide {
+	width: 800px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#titulo-busca{
+	color: #EE7621;
+}
+
+#detalhe-descricao{
+	background-color: white;
+	box-shadow: 0px 0px 10px #8B8682;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#detalhe-endereco{
+	background-color: white;
+	box-shadow: 0px 0px 10px #8B8682;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#detalhe-dados{
+	background-color: white;
+	box-shadow: 0px 0px 10px #8B8682;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#detalhe-titulo{
+	color: #EE7621;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+/* IMAGEM DO ANUNCIO*/
+#img-anuncio{
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+}
+
+#filtros{
+	text-align: center;
+}
+
+#logo{
+	background-color: #9370DB
+}
